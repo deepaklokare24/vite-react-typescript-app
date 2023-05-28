@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ExpandableText from "./ExpandableText";
 import "./App.css";
+import TodoList from "./TodoList";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,8 @@ function App() {
           odit, cumque dignissimos numquam officiis. Facilis sunt aperiam
           eligendi tempora, voluptate labore.
         </ExpandableText>
+
+        <TodoList />
       </div>
     </>
   );
